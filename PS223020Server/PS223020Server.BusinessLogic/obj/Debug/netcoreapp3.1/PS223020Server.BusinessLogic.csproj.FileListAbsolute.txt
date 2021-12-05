@@ -1,0 +1,8 @@
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.BusinessLogic\bin\Debug\netcoreapp3.1\PS223020Server.BusinessLogic.deps.json
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.BusinessLogic\bin\Debug\netcoreapp3.1\PS223020Server.BusinessLogic.dll
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.BusinessLogic\bin\Debug\netcoreapp3.1\PS223020Server.BusinessLogic.pdb
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.BusinessLogic\obj\Debug\netcoreapp3.1\PS223020Server.BusinessLogic.csprojAssemblyReference.cache
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.BusinessLogic\obj\Debug\netcoreapp3.1\PS223020Server.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.BusinessLogic\obj\Debug\netcoreapp3.1\PS223020Server.BusinessLogic.AssemblyInfo.cs
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.BusinessLogic\obj\Debug\netcoreapp3.1\PS223020Server.BusinessLogic.dll
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.BusinessLogic\obj\Debug\netcoreapp3.1\PS223020Server.BusinessLogic.pdb
