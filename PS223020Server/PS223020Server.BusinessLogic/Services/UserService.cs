@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using PS223020Server.BusinessLogic.Core.Interfaces;
 using PS223020Server.BusinessLogic.Core.Models;
 using PS223020Server.DataAccess.Core.Interfaces.DbContext;
@@ -23,14 +24,13 @@ namespace PS223020Server.BusinessLogic.Services
             _context = context;
         }
 
-        public Task<UserInformationBlo> AuthWithEmail(string email, string password)
+        public async Task<UserInformationBlo> AuthWithEmail(string email, string password)
         {
-            UserRto user = _context.Users.FirstOrDefault(p => p.Email == email && p.Password == password);
+            UserRto user = await _context.Users.FirstOrDefaultAsync(p => p.Email == email && p.Password == password);
 
-            if (user == null)
-                throw new NotFoundException($"Пользователь с почтой {email} не найден");
+            if (user == null) throw new NotFoundException($"Пользователь с почтой {email} не найден");
 
-            return ConvertToUserInformation(user);
+            return await ConvertToUserInformation(user);
         }
 
         public Task<UserInformationBlo> AuthWithLogin(string login, string password)
@@ -48,9 +48,13 @@ namespace PS223020Server.BusinessLogic.Services
             throw new NotImplementedException();
         }
 
-        public Task<UserInformationBlo> Get(int userId)
+        public async Task<UserInformationBlo> Get(int userId)
         {
-            throw new NotImplementedException();
+            UserRto user = await _context.Users.FirstOrDefaultAsync(x => x.Id == userId);
+
+            if (user == null) throw new NotFoundException("Пользователь не найден");
+
+            return await ConvertToUserInformation(user);
         }
 
         public Task<UserInformationBlo> RegisterWithPhone(string numberPrefix, string number, string password)
@@ -67,7 +71,7 @@ namespace PS223020Server.BusinessLogic.Services
         {
             if (userRto == null) throw new ArgumentNullException(nameof(userRto));
 
-            var userInformationBlo = _mapper.Map<UserInformationBlo>(userRto);
+            UserInformationBlo userInformationBlo = _mapper.Map<UserInformationBlo>(userRto);
 
             return userInformationBlo;
         }
