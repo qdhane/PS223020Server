@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PS223020Server.DataAccess.Core.Interfaces.DbContext;
 using PS223020Server.DataAccess.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,5 @@ namespace PS223020Server.DataAccess.DbContext
         }
 
         public DbSet<UserRto> Users { get; set; }
-        public DbSet<UserRoleRto> UserRoles { get; set; }
     }
 }

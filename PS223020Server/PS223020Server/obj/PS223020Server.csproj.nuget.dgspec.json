@@ -4,14 +4,14 @@
     "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server\\PS223020Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server\\PS223020Server.csproj": {
+    "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic.Core\\PS223020Server.BusinessLogic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server\\PS223020Server.csproj",
-        "projectName": "PS223020Server",
-        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server\\PS223020Server.csproj",
+        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic.Core\\PS223020Server.BusinessLogic.Core.csproj",
+        "projectName": "PS223020Server.BusinessLogic.Core",
+        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic.Core\\PS223020Server.BusinessLogic.Core.csproj",
         "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server\\obj\\",
+        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -52,9 +52,431 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic\\PS223020Server.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic\\PS223020Server.BusinessLogic.csproj",
+        "projectName": "PS223020Server.BusinessLogic",
+        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic\\PS223020Server.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic.Core\\PS223020Server.BusinessLogic.Core.csproj": {
+                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic.Core\\PS223020Server.BusinessLogic.Core.csproj"
+              },
+              "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\PS223020Server.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\PS223020Server.DataAccess.Core.csproj"
+              },
+              "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\Share\\Share.csproj": {
+                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\Share\\Share.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.Core\\PS223020Server.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.Core\\PS223020Server.Core.csproj",
+        "projectName": "PS223020Server.Core",
+        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.Core\\PS223020Server.Core.csproj",
+        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\PS223020Server.DataAccess.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\PS223020Server.DataAccess.Core.csproj",
+        "projectName": "PS223020Server.DataAccess.Core",
+        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\PS223020Server.DataAccess.Core.csproj",
+        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess\\PS223020Server.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess\\PS223020Server.DataAccess.csproj",
+        "projectName": "PS223020Server.DataAccess",
+        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess\\PS223020Server.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\PS223020Server.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\PS223020Server.DataAccess.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server\\PS223020Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server\\PS223020Server.csproj",
+        "projectName": "PS223020Server",
+        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server\\PS223020Server.csproj",
+        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic.Core\\PS223020Server.BusinessLogic.Core.csproj": {
+                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic.Core\\PS223020Server.BusinessLogic.Core.csproj"
+              },
+              "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic\\PS223020Server.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.BusinessLogic\\PS223020Server.BusinessLogic.csproj"
+              },
+              "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.Core\\PS223020Server.Core.csproj": {
+                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.Core\\PS223020Server.Core.csproj"
+              },
+              "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\PS223020Server.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess.Core\\PS223020Server.DataAccess.Core.csproj"
+              },
+              "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess\\PS223020Server.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\PS223020Server.DataAccess\\PS223020Server.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\Share\\Share.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\Share\\Share.csproj",
+        "projectName": "Share",
+        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\Share\\Share.csproj",
+        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020Server\\PS223020Server\\Share\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

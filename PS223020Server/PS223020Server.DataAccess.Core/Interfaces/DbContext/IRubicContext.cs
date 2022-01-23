@@ -11,7 +11,6 @@ namespace PS223020Server.DataAccess.Core.Interfaces.DbContext
     public interface IRubicContext : IDisposable, IAsyncDisposable
     {
         DbSet<UserRto> Users { get; set; }
-        DbSet<UserRoleRto> UserRoles { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }

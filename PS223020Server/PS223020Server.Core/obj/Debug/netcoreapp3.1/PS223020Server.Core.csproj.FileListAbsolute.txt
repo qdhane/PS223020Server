@@ -1,0 +1,9 @@
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.Core\bin\Debug\netcoreapp3.1\PS223020Server.Core.deps.json
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.Core\bin\Debug\netcoreapp3.1\PS223020Server.Core.dll
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.Core\bin\Debug\netcoreapp3.1\PS223020Server.Core.pdb
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.Core\obj\Debug\netcoreapp3.1\PS223020Server.Core.csprojAssemblyReference.cache
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.Core\obj\Debug\netcoreapp3.1\PS223020Server.Core.AssemblyInfoInputs.cache
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.Core\obj\Debug\netcoreapp3.1\PS223020Server.Core.AssemblyInfo.cs
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.Core\obj\Debug\netcoreapp3.1\PS223020Server.Core.csproj.CoreCompileInputs.cache
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.Core\obj\Debug\netcoreapp3.1\PS223020Server.Core.dll
+C:\Users\titov\Documents\GitHub\PS223020Server\PS223020Server\PS223020Server.Core\obj\Debug\netcoreapp3.1\PS223020Server.Core.pdb

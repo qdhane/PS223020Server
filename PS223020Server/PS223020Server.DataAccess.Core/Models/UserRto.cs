@@ -21,7 +21,6 @@ namespace PS223020Server.DataAccess.Core.Models
         public string Patronymic { get; set; }
         public DateTimeOffset Birthday { get; set; }
         public string AvatarUrl { get; set; }
-        public UserRoleRto Role { get; set; }
 
         [NotMapped]
         public string GetFullName
